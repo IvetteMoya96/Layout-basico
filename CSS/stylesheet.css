@@ -1,0 +1,87 @@
+.body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+  }
+  
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 20px); 
+    height: 60px; 
+    background-color: blue;
+    margin: 10px; 
+  }
+  
+  .main {
+    position: absolute;
+    top: calc(60px + 20px); 
+    left: 10px;
+    width: calc(100% - 20px); 
+    height: 50%; 
+    display: block;
+  }
+  
+  .left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%; 
+    height: 100%; 
+    background-color: lightgray;
+    margin-right: 1.5cm; 
+  }
+  
+  .right {
+    position: absolute;
+    top: 0;
+    left: 41.5%; 
+    width: 58.5%; 
+    height: 100%; 
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%; 
+    background-color: lightblue;
+    border: 7px solid blue;
+    box-sizing: border-box;
+    margin-bottom: 1.5cm; 
+  }
+  
+  .bottom-right {
+    position: absolute;
+    top: 50%; 
+    left: 0;
+    width: 100%;
+    height: 50%; 
+    background-color: lightblue;
+    border: 7px solid blue;
+    box-sizing: border-box;
+  }
+  
+  .rectangle {
+    position: absolute;
+    top: calc(50% + 3.2cm); 
+    left: 10px;
+    width: calc(100% - 20px);
+    height: 28%; 
+    background-color: rgb(92, 0, 128);
+    box-sizing: border-box;
+    margin-bottom: 1.5cm; 
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: 60px;
+    background-color: blue;
+  }
+  
